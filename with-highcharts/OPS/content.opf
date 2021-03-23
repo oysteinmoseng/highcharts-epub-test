@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="BookID" prefix="rendition: http://www.idpf.org/vocab/rendition/# cc: http://creativecommons.org/ns#">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <dc:identifier id="BookID">highcharts.com.test1</dc:identifier>
+   <dc:title>Highcharts test</dc:title>
+   <dc:language>en-US</dc:language>
+   <dc:creator>Øystein Moseng</dc:creator>
+   <dc:description>Testing Highcharts content within EPUB 3</dc:description>
+   <meta property="dcterms:modified">2021-03-23T01:01:01Z</meta>
+  </metadata>
+  <manifest>
+   <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+   <item media-type="text/css" id="epub-css" href="epub.css"/>
+   <item id="cover.xhtml" href="cover.xhtml" media-type="application/xhtml+xml"/>
+   <item id="cover.png" href="cover.png" media-type="image/png" properties="cover-image"/>
+   <item id="highcharts.js" href="highcharts.js" media-type="text/javascript"/>
+   <item id="accessibility.js" href="accessibility.js" media-type="text/javascript"/>
+   <item id="chapter-1.xhtml" href="chapter-1.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+  </manifest>
+  <spine>
+   <itemref idref="cover.xhtml"/>
+   <itemref idref="toc"/>
+   <itemref idref="chapter-1.xhtml"/>
+  </spine>
+</package>
